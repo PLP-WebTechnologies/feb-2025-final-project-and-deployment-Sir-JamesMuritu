@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Shop - Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .contact-section {
+            max-width: 900px;
+            margin: 2.5rem auto 2rem auto;
+            background: #fff;
+            border-radius: 14px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+            padding: 2.5rem 2.5rem 2rem 2.5rem;
+            display: flex;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+        .contact-info {
+            flex: 1 1 250px;
+            min-width: 220px;
+            margin-bottom: 1.5rem;
+        }
+        .contact-info h3 {
+            color: #007bff;
+            margin-bottom: 1rem;
+        }
+        .contact-info ul {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 1.1rem;
+            font-size: 1.08rem;
+            color: #222;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info i {
+            color: #007bff;
+            margin-right: 0.7rem;
+            font-size: 1.2rem;
+        }
+        .contact-form-container {
+            flex: 2 1 350px;
+            min-width: 260px;
+        }
+        .contact-form-container h2 {
+            color: #1a2330;
+            margin-bottom: 1.2rem;
+            font-size: 2rem;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            gap: 1.1rem;
+        }
+        .contact-form label {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 0.2rem;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding: 0.7rem 0.9rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            background: #fff;
+            resize: none;
+        }
+        .contact-form textarea {
+            min-height: 110px;
+        }
+        .contact-form button {
+            width: 100%;
+            padding: 0.9rem;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .contact-form button:hover {
+            background: #0056b3;
+        }
+        @media (max-width: 900px) {
+            .contact-section {
+                flex-direction: column;
+                padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="Sports Shop Logo">
+                <h1>Sports Shop</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contact-section">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i>123 Sports Street, City</li>
+                    <li><i class="fas fa-phone"></i>+1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i>info@sportsshop.com</li>
+                    <li><i class="fas fa-clock"></i>Mon - Sat: 9:00am - 7:00pm</li>
+                </ul>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <h2>Contact Us</h2>
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your one-stop destination for all sports equipment and apparel. We provide high-quality products for athletes of all levels.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="products.html?category=Basketball">Basketball</a></li>
+                    <li><a href="products.html?category=Footwear">Footwear</a></li>
+                    <li><a href="products.html?category=Fitness">Fitness</a></li>
+                    <li><a href="products.html?category=Apparel">Apparel</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Sports Street, City</li>
+                    <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> info@sportsshop.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sports Shop. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html> 
