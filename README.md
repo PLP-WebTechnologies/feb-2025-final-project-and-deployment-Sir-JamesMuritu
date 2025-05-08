@@ -42,7 +42,7 @@ A modern, responsive e-commerce website for a sports equipment and apparel store
 ## How to Run Locally
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/Sports-E-commerce.git
+   git clone https://github.com/PLP-WebTechnologies/feb-2025-final-project-and-deployment-Sir-JamesMuritu.git
    ```
 2. Open `index.html` in your browser or use a local server (recommended for full JS functionality).
 
@@ -58,7 +58,7 @@ A modern, responsive e-commerce website for a sports equipment and apparel store
 - `images/` - Product and team images
 
 ## Live Demo
-*[Add live demo link here]*
+*[https://plp-webtechnologies.github.io/feb-2025-final-project-and-deployment-Sir-JamesMuritu/]*
 
 ## Contributing
 1. Fork the repository
